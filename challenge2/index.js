@@ -1,15 +1,12 @@
 function manufacture(gifts, materials) {
+  let response = [];
   gifts.forEach((element) => {
     let flag = [...element].every((char) => materials.includes(char));
-    if (flag)
-      console.log(
-        `${element}${" si, porque sus letras estan en "}${materials}`
-      );
+    if (flag) response.push(element);
     else
-      console.log(
-        `${element}${" no, porque sus letras no estan en "}${materials}`
-      );
+      return `${element}${" no, porque sus letras no estan en "}${materials}`;
   });
+  return response;
 }
 
 // const gifts = ["tren", "oso", "pelota"];
