@@ -1,0 +1,24 @@
+{
+  "name": "challenges-varios",
+  "version": "1.0.0",
+  "description": "En el taller de Santa, los elfos tienen una lista de regalos que desean fabricar y un conjunto limitado de materiales.",
+  "main": "index.js",
+  "type":"module",
+  "dependencies": {
+    "diff": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jptuttolomondo/challenges-varios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jptuttolomondo/challenges-varios/issues"
+  },
+  "homepage": "https://github.com/jptuttolomondo/challenges-varios#readme"
+}
